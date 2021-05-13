@@ -15,9 +15,9 @@ function RandomChar({interval}) {
 
         let timerId = setInterval(updateChar, interval);
 
-        return(
-            clearInterval(timerId)
-        )
+        return() => {
+            clearInterval(timerId);
+        }
     }, []);
 
     const gotService = new GotService();
