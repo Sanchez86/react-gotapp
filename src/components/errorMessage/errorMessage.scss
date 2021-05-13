@@ -1,0 +1,11 @@
+.error{
+    &__img{
+         width: 100%;
+         object-fit: cover;
+     }
+    &__text{
+        color: red;
+        border-left: 3px solid red;
+        padding-left: 5px;
+    }
+}
