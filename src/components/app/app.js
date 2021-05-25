@@ -26,7 +26,7 @@ export default class App extends Component {
 
     render() {
         const {charVisibility} = this.state;
-        const char = charVisibility ? <RandomChar interval={1500}/> : null;
+        const char = charVisibility ? <RandomChar interval={5000}/> : null;
         return (
             <Router>
             <div className="app">
